@@ -1,0 +1,137 @@
+body {
+    background-image: url(../images/bg-body.png);
+}
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.main-header{
+    position: relative;
+}
+.logo {
+    /*centrar y redondear*/
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 180px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+/*Barra de navegación*/
+.navbar {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    padding-left: 0;
+    padding-right: 0;
+    background-color: transparent;
+}
+.navbar-toggler {
+    text-align: center;
+    background-color: #464646;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+.nav-item {
+    width: 100%;
+    background-color: #464646;
+    height: 50px;
+    text-align: center;
+}
+.nav-item a {
+    width: 100%;
+    background-color: inherit;
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+    text-transform: uppercase;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+/* banner */
+
+.banner {
+    display: none;
+}
+
+/*Article*/
+
+.product {
+    margin-bottom: 15px;
+}
+
+.photo-container {
+    position: relative;
+}
+
+.photo {
+    width: 100%;
+}
+
+.special {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+.zoom {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: 43%;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+}
+.more {
+    background-color: #464646;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+}
+.vip-products{
+    position: relative;
+}
+@media(min-width:460px) {
+    .product {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media(min-width:720px) {
+    .product {
+        width: 33%;
+        float: left;
+    }
+    .banner{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 20px;
+        position: relative;
+    }
+}
+/*footer*/
+.main-footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.main-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.main-footer li {
+    background-color: red;
+}
