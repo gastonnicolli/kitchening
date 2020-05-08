@@ -1,6 +1,9 @@
 body {
     background-image: url(../images/bg-body.png);
 }
+.bg-light{
+    background-color: transparent;
+}
 .container{
     position: relative;
     display: flex;
@@ -8,6 +11,8 @@ body {
 }
 .main-header{
     position: relative;
+    padding-left: 0;
+    padding-right: 0;
 }
 .logo {
     /*centrar y redondear*/
@@ -66,6 +71,8 @@ a:hover{
 
 .product {
     margin-bottom: 15px;
+    padding-left: 5px;
+    box-sizing: border-box;
 }
 
 .photo-container {
@@ -138,7 +145,18 @@ a:hover{
     .main-footer li{
         float: left;
     }
+    .main-footer a{
+        font-size: small;
+    }
 }
+@media(min-width:1400px) {
+    .product{
+        width: 380px;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+}
+
 /*footer*/
 .main-footer{
     position: relative;
