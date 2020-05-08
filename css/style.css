@@ -33,7 +33,6 @@ body {
     padding-left: 0;
     padding-right: 0;
     background-color: transparent;
-    
 }
 .navbar-toggler {
     text-align: center;
@@ -115,6 +114,9 @@ a:hover{
         width: 50%;
         float: left;
     }
+    
+
+    
 }
 
 @media(min-width:720px) {
@@ -162,6 +164,7 @@ a:hover{
     position: relative;
     bottom: 0;
     width: 100%;
+    margin-bottom: 15px;
 }
 .main-footer ul {
     list-style: none;
